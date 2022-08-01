@@ -7,7 +7,7 @@ document.querySelector('.verify1').addEventListener('click', function() {
 
   let bmi1 = greutate1 / inaltime1;
 
-  document.querySelector('.clasaBMI1').textContent = (`BMI-ul tau este ${bmi1}.`);
+  document.querySelector('.clasaBMI1').textContent = (`BMI-ul tău este ${bmi1}.`);
 });
 
 document.querySelector('.verifyAge1').addEventListener('click', function() {
@@ -16,7 +16,7 @@ document.querySelector('.verifyAge1').addEventListener('click', function() {
 
   let varsta1 = new Date().getFullYear() - anulNasterii1;
 
-  document.querySelector('.clasaVarsta1').textContent = (`Varsta este ${varsta1}.`);
+  document.querySelector('.clasaVarsta1').textContent = (`Vârsta ta este ${varsta1}.`);
 });
 
 let bmi2;
@@ -28,7 +28,7 @@ document.querySelector('.verify2').addEventListener('click', function() {
 
   let bmi2 = greutate2 / inaltime2;
 
-  document.querySelector('.clasaBMI2').textContent = (`BMI-ul tau este ${bmi2}.`);
+  document.querySelector('.clasaBMI2').textContent = (`BMI-ul tău este ${bmi2}.`);
 });
 
 document.querySelector('.verifyAge2').addEventListener('click', function() {
@@ -37,7 +37,7 @@ document.querySelector('.verifyAge2').addEventListener('click', function() {
 
   let varsta2 = new Date().getFullYear() - anulNasterii2;
 
-  document.querySelector('.clasaVarsta2').textContent = (`Varsta este ${varsta2}.`);
+  document.querySelector('.clasaVarsta2').textContent = (`Vârsta este ${varsta2}.`);
 });
 
 
