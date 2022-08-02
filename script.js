@@ -8,7 +8,7 @@ document.querySelector('.verify1').addEventListener('click', function() {
 
   bmi1 = greutate1 / (inaltime1**2);
 
-  document.querySelector('.clasaBMI1').textContent = (`BMI-ul tău este ${bmi1}.`);
+  document.querySelector('.clasaBMI1').textContent = (`BMI-ul tau este ${bmi1}.`);
 });
 
 

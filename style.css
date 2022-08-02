@@ -5,3 +5,29 @@
 .tot {
   margin-top: 200 !important;
 }
+
+.container.text-center {
+ 
+  width: 100%;
+  background-color: lightgrey;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+h2 {
+  text-shadow: 1px 1px 1px red;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
